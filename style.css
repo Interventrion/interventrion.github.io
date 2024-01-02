@@ -30,7 +30,7 @@ html {
 .btn-social div {
   border: none;
   border-radius: 5px; 
-  color: white; 
+  color: rgb(0, 0, 0); 
   padding: 10px 24px; 
   cursor: pointer;  
   width: 45%;
@@ -84,14 +84,14 @@ html {
 /* Articles */
 
 .name {
-  color: #FFFFFF;
+  color: #000000;
   padding: 0;
   font-size: 22px;
   line-height: 1.8;
   margin-bottom: 0;
 }
 .desc {
-  color: #FFFFFF;
+  color: #000000;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -103,7 +103,7 @@ html {
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   width: 100%;
   padding: 20px;
@@ -124,13 +124,13 @@ hr.new {
 	align-items: center;
     justify-content: center;
 	text-align:center;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 #projects h3{
     padding-top: 70px;
 }
 #projects p{
-	font-family: white;
+	font-family: rgb(0, 0, 0);
 	font-size:1.2rem;
 	padding: 10px;
 }
@@ -151,7 +151,7 @@ hr.new {
 	width: 350px;
 	height: 300px;
 	border-radius:12px;
-    background:#FFFFFF;	
+    background:#000000;	
 	transition: 0.5s;
 	box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);
 }
@@ -210,7 +210,7 @@ hr.new {
   font-family: 'Andika New Basic', sans-serif;
   float: left;
   display: block;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
@@ -219,12 +219,12 @@ hr.new {
 }
 
 .topnav a:hover {
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid rgb(255, 0, 0);
   transition: 0.5s;
 }
 
 .topnav a.active {
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid rgb(255, 0, 0);
 }
 
 /* Scrollbar */
